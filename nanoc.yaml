@@ -88,3 +88,10 @@ checks:
     # E.g.:
     #   exclude_files: ['blog/page']
     exclude_files: []
+
+
+environments:
+  prod:
+    base_url: https://fakefarm.github.io/atom-to-noah
+  dev:
+    base_url: ''
